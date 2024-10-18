@@ -12,6 +12,8 @@ Before we start, complete these tasks:
 2. create an account on [advent of code](https://adventofcode.com) (here you can use your github login)
 3. create an account on [rosalind.info](https://rosalind.info/) (here you can use your github login)
 
+<!--
+
 ---
 
 ## First assignment
@@ -81,9 +83,10 @@ for ( index in seq_along(vec) ){
 
 </details>
 
-<!--
+
 + papa-programming
   + first assignment
   + quarto sida per problem? 
   + [githubaction renderar html](https://github.com/quarto-dev/quarto-actions)
+
 -->
