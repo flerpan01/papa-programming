@@ -1,33 +1,53 @@
 # Papa programming
 
-We'll be using github, advent of code and rosalind. Advent of code contains general code puzzles. Rosalind contains bioinformatical code puzzles. Both are equal challenging!
+This repository holds a collection of coding puzzles together with my solutions using the programming language `R`. I see this as a fun and interactive way of becoming a better programmer. Feel free to join me!
 
-Lets get to work. First, complete the tasks below:
+For this we'll be using Github, Advent of Code and Rosalind. Advent of code contains general code puzzles while Rosalind contains bioinformatical code puzzles. Both are equal challenging!
 
-1. create an account on [github](www.github.com)
-2. create an account on [advent of code](www.adventofcode.com) (here you can use your github login)
+### Preparations
+
+Before we start, complete these tasks:
+
+1. create an account on [github](https://github.com)
+2. create an account on [advent of code](https://adventofcode.com) (here you can use your github login)
 3. create an account on [rosalind.info](https://rosalind.info/) (here you can use your github login)
 
 ---
 
-+ I'll be using R
-
 ## First assignment
 
-For the first puzzle we'll use the [advent of code day 1 problem](https://adventofcode.com/2015/day/1), this will be a perfect warm-up. 
+For the first puzzle we'll be use the [advent of code day 1 problem](https://adventofcode.com/2015/day/1), a perfect warm-up. If you get stuck check the code below:
+
+<details>
+
+<summary>I'm stuck!</summary>
 
 In order to solve this problem we need understand some programming concepts: (1) vectors & (2) elements.
 
-A `vector` is like a sentence, "Hi, I like to swim and sunbath!", one dimentional: reads right to left. Every step or character is an `element` and has a unique adress:
+A `vector` is like a sentence, "Hi, I like to swim and sunbath!", one dimentional, reads right to left. Every step or character in a `vector` is an `element` and(!) has a unique adress:
 
 ```
 $ Hi, I like to swim and sunbath!
 
-vector   H i , I l i k e t  o  s  w  i  m  a  n  d  s  u  n  b  a  t  h  !
+elements H i , I l i k e t  o  s  w  i  m  a  n  d  s  u  n  b  a  t  h  !
 adresses 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
 ```
 
->In some programming languages, like `python`, the first element starts with a `0`. In `R`, the first element starts on `1`
+>In some programming languages, like `python`, the first element starts with a `0`. However, in `R`, the first element starts on `1`
+
+The first part of the puzzle requires us to:
+
+1. Save the given vector. In order to follow my code, be sure to save the vector as `advent_of_code_2015_day1.txt` inside a folder called `puzzle1`
+
+```
+# folder structure
+project/
+`-- puzzle1/
+    `-- advent_of_code_2015_day1.txt
+```
+
+2. Open `R` / `Rstudio`, preferrably inside the `project/` folder, this will ensure the working directory is correct.
+3. Import the text file
 
 ```r
 # Import the text file
@@ -59,9 +79,11 @@ for ( index in seq_along(vec) ){
 }
 ```
 
+</details>
 
-
+<!--
 + papa-programming
   + first assignment
   + quarto sida per problem? 
   + [githubaction renderar html](https://github.com/quarto-dev/quarto-actions)
+-->
