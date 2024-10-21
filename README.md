@@ -10,19 +10,25 @@ Before we start, complete these tasks:
 
 1. create an account on [github](https://github.com)
 2. create an account on [advent of code](https://adventofcode.com) (here you can use your github login)
-3. create an account on [rosalind.info](https://rosalind.info/) (here you can use your github login)
-
-<!--
+3. create an account on [rosalind](https://rosalind.info/) (here you can use your github login)
 
 ---
 
 ## First assignment
 
-For the first puzzle we'll be use the [advent of code day 1 problem](https://adventofcode.com/2015/day/1), a perfect warm-up. If you get stuck check the code below:
+For the first puzzle we'll be using the [advent of code day 1 puzzle](https://adventofcode.com/2015/day/1), a perfect warm-up. Read and understand the problem, download the "floor directions", import them to `R`, write some script that makes sense of these "floor directions", solve the puzzle!
+
+If you get stuck check the code below:
 
 <details>
 
 <summary>I'm stuck!</summary>
+
+NOPE! Try yourself first :)
+
+</details>
+
+<!--
 
 In order to solve this problem we need understand some programming concepts: (1) vectors & (2) elements.
 
